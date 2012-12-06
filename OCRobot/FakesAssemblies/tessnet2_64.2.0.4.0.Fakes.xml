@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>tessnet2_64.2.0.4.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:tessnet2.Fakes.ShimCharacter">
+            <summary>Shim type of tessnet2.Character</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimCharacter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimCharacter.#ctor(tessnet2.Character)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimCharacter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimCharacter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimCharacter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimCharacter.ConstructorValueTypeInt32Int32Int32Int32">
+            <summary>Sets the shim of Character.Character(ValueType character, Int32 left, Int32 top, Int32 right, Int32 bottom)</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.ShimCharacter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.ShimTesseract">
+            <summary>Shim type of tessnet2.Tesseract</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimTesseract.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimTesseract.#ctor(tessnet2.Tesseract)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimTesseract.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimTesseract.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimTesseract.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.BuildPage">
+            <summary>Sets the shim of Tesseract.BuildPage()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.Clear">
+            <summary>Sets the shim of Tesseract.Clear()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.Constructor">
+            <summary>Sets the shim of Tesseract.Tesseract()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.Dispose">
+            <summary>Sets the shim of Tesseract.Dispose()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.DisposeBoolean">
+            <summary>Sets the shim of Tesseract.Dispose(Boolean )</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.DoOCRBitmapRectangle">
+            <summary>Sets the shim of Tesseract.DoOCR(Bitmap bitmap, Rectangle rect)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.GetLineTextListOfWordInt32">
+            <summary>Sets the shim of Tesseract.GetLineText(List`1&lt;Word&gt; words, Int32 lineIndex)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.GetLineWordsListOfWordInt32">
+            <summary>Sets the shim of Tesseract.GetLineWords(List`1&lt;Word&gt; words, Int32 lineIndex)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.GetThresholdedImageBitmapRectangle">
+            <summary>Sets the shim of Tesseract.GetThresholdedImage(Bitmap bitmap, Rectangle rect)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.GetVariableList">
+            <summary>Sets the shim of Tesseract.GetVariableList()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.GetVariableString">
+            <summary>Sets the shim of Tesseract.GetVariable(String name)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.InitStringStringBoolean">
+            <summary>Sets the shim of Tesseract.Init(String tessdata, String lang, Boolean numericMode)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.LineCountListOfWord">
+            <summary>Sets the shim of Tesseract.LineCount(List`1&lt;Word&gt; words)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.ProgressEventAddTesseractProgressHandler">
+            <summary>Sets the shim of Tesseract.add_ProgressEvent(ProgressHandler value)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.ProgressEventRaiseInt32">
+            <summary>Sets the shim of Tesseract.raise_ProgressEvent(Int32 value0)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.ProgressEventRemoveTesseractProgressHandler">
+            <summary>Sets the shim of Tesseract.remove_ProgressEvent(ProgressHandler value)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.PutImageBitmapRectangle">
+            <summary>Sets the shim of Tesseract.PutImage(Bitmap bitmap, Rectangle rect)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.SetVariableStringObject">
+            <summary>Sets the shim of Tesseract.SetVariable(String name, Object val)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract._Tesseract">
+            <summary>Sets the shim of Tesseract.~Tesseract()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.doCallback">
+            <summary>Sets the shim of Tesseract.doCallback()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.doOCR">
+            <summary>Sets the shim of Tesseract.doOCR()</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.ShimTesseract.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.BuildPage">
+            <summary>Sets the shim of Tesseract.BuildPage()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.Clear">
+            <summary>Sets the shim of Tesseract.Clear()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.Dispose">
+            <summary>Sets the shim of Tesseract.Dispose()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of Tesseract.Dispose(Boolean )</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.DoOCRBitmapRectangle">
+            <summary>Sets the shim of Tesseract.DoOCR(Bitmap bitmap, Rectangle rect)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.GetThresholdedImageBitmapRectangle">
+            <summary>Sets the shim of Tesseract.GetThresholdedImage(Bitmap bitmap, Rectangle rect)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.GetVariableList">
+            <summary>Sets the shim of Tesseract.GetVariableList()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.GetVariableString">
+            <summary>Sets the shim of Tesseract.GetVariable(String name)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.InitStringStringBoolean">
+            <summary>Sets the shim of Tesseract.Init(String tessdata, String lang, Boolean numericMode)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.ProgressEventAddTesseractProgressHandler">
+            <summary>Sets the shim of Tesseract.add_ProgressEvent(ProgressHandler value)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.ProgressEventRaiseInt32">
+            <summary>Sets the shim of Tesseract.raise_ProgressEvent(Int32 value0)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.ProgressEventRemoveTesseractProgressHandler">
+            <summary>Sets the shim of Tesseract.remove_ProgressEvent(ProgressHandler value)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.PutImageBitmapRectangle">
+            <summary>Sets the shim of Tesseract.PutImage(Bitmap bitmap, Rectangle rect)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.SetVariableStringObject">
+            <summary>Sets the shim of Tesseract.SetVariable(String name, Object val)</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances._Tesseract">
+            <summary>Sets the shim of Tesseract.~Tesseract()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.doCallback">
+            <summary>Sets the shim of Tesseract.doCallback()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimTesseract.AllInstances.doOCR">
+            <summary>Sets the shim of Tesseract.doOCR()</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.ShimWord">
+            <summary>Shim type of tessnet2.Word</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimWord.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimWord.#ctor(tessnet2.Word)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimWord.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.ShimWord.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimWord.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimWord.Constructor">
+            <summary>Sets the shim of Word.Word()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimWord.ToString">
+            <summary>Sets the shim of Word.ToString()</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.ShimWord.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.ShimWord.AllInstances.ToString01">
+            <summary>Sets the shim of Word.ToString()</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.StubCharacter">
+            <summary>Stub type of tessnet2.Character</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubCharacter.#ctor(System.ValueType,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubCharacter.InitializeStub">
+            <summary>Initializes a new instance of type StubCharacter</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubCharacter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubCharacter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubCharacter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.StubTesseract">
+            <summary>Stub type of tessnet2.Tesseract</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubTesseract.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubTesseract.Dispose(System.Boolean)">
+            <summary>Sets the stub of Tesseract.Dispose(Boolean )</summary>
+        </member>
+        <member name="F:tessnet2.Fakes.StubTesseract.DisposeBoolean">
+            <summary>Sets the stub of Tesseract.Dispose(Boolean )</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubTesseract.InitializeStub">
+            <summary>Initializes a new instance of type StubTesseract</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubTesseract.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubTesseract.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubTesseract.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:tessnet2.Fakes.StubWord">
+            <summary>Stub type of tessnet2.Word</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubWord.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubWord.InitializeStub">
+            <summary>Initializes a new instance of type StubWord</summary>
+        </member>
+        <member name="M:tessnet2.Fakes.StubWord.ToString">
+            <summary>Sets the stub of Word.ToString()</summary>
+        </member>
+        <member name="F:tessnet2.Fakes.StubWord.ToString01">
+            <summary>Sets the stub of Word.ToString()</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubWord.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubWord.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:tessnet2.Fakes.StubWord.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
